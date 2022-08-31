@@ -1,5 +1,5 @@
-const reverseString = function() {
-
+const reverseString = function(ogStr) {
+    return ogStr.split('').reverse().join('');
 };
 
 // Do not edit below this line
